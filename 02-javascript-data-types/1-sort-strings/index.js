@@ -12,3 +12,4 @@ export function sortStrings(arr, param = 'asc') {
     return copy.sort((a, b) => b.localeCompare(a, ['ru', 'en'], {caseFirst: 'upper'}));
   }
 }
+// PR for the AI review currency checks
